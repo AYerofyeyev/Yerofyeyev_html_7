@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "LeagueGothicRegular";
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+header {
+  position: relative;
+  background: url('../img/');
+}
+
+.logo--link {
+  color: #fff;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logo--highlight {
+  background: linear-gradient(to top, #34263b 10%, #5c4168 50%, #734f82);
+  text-shadow: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  float: right;
+}
+
+.menu--item {
+  display: inline-block;
+}
+
+.menu--link {
+  color: #fff;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.menu--item:hover {
+  border-bottom: 2px solid #edbfff;
+}
+
+h1 {
+  color: #fefefe;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #eebfff;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 32px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slider--text {
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  color: #fff;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px #0f1518;
+}
+
+.about--text {
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 0px 1px 0px #0f1518;
+}
+
+.about--link {
+  color: #fff;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #0f1518;
+}
+
+main {
+  position: relative;
+}
+
+.start--header {
+  color: #454545;
+}
+
+.start--highlight {
+  color: #edbfff;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.start--text {
+  color: #454545;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.start--hidden {
+  display: none;
+  position: absolute;
+  color: #454545;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* -=switch2 active=-
+.start--hidden {
+  display: block;
+}*/
+
+.updates--link {
+  color: #454545;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.updates--more {
+  color: #454545;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.content {
+  position: relative;
+}
+
+.content--header {
+  color:  #454545;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.content--highlight {
+  color:  #b9b9b9;
+  font-family: LeagueGothicRegular, Arial, sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.copy {
+  color:  #c5c5c5;
+  font-family: Georgia;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.content--text {
+  color:  #787878;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.content--hidden {
+  display: none;
+  position: absolute;
+  color:  #787878;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.content--text:hover
+.content--hidden {
+  display: block;
+}
+
+footer {
+  position: relative;
+}
+
+.menu--footer {
+  float: left;
+}
+
+.design {
+  display: inline-block;
+  float: right;
+  color:  #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 34px;
+}
