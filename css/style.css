@@ -1,3 +1,4 @@
+/* GENERAL SETTINGS */
 @font-face {
     font-family: "LeagueGothicRegular";
     src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
@@ -10,10 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-header {
-  position: relative;
-  background: url('../img/');
-}
+/* TEXT CONTENT FORMATTING ===> HEADER */
 
 .logo--link {
   color: #fff;
@@ -31,14 +29,6 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-.menu {
-  float: right;
-}
-
-.menu--item {
-  display: inline-block;
-}
-
 .menu--link {
   color: #fff;
   font-family: LeagueGothicRegular, Arial, sans-serif;
@@ -47,10 +37,6 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
-}
-
-.menu--item:hover {
-  border-bottom: 2px solid #edbfff;
 }
 
 h1 {
@@ -97,6 +83,8 @@ h3 {
   text-shadow: 0px 1px 0px #0f1518;
 }
 
+/* TEXT CONTENT FORMATTING ===> MAIN */
+
 main {
   position: relative;
 }
@@ -126,10 +114,6 @@ main {
   font-size: 16px;
 }
 
-/* -=switch2 active=-
-.start--hidden {
-  display: block;
-}*/
 
 .updates--link {
   color: #454545;
@@ -206,6 +190,8 @@ h4 {
   display: block;
 }
 
+/* TEXT CONTENT FORMATTING ===> FOOTER */
+
 footer {
   position: relative;
 }
@@ -222,3 +208,85 @@ footer {
   font-size: 12px;
   line-height: 34px;
 }
+
+/* BLOCKS FORMATTING ===> 960px ===> HEADER */
+
+@media screen and (min-width: 960px) {
+
+.wrapper {
+    background: url();
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    padding: 70px 0;
+    height: 869px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.logo--link {
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu--item {
+}
+
+.menu--item:hover {
+  border-bottom: 2px solid #edbfff;
+}
+
+.slider {
+    margin-top: 172px;
+    height: 400px;
+}
+
+.slider--block {
+    height: 231px;
+    width: 502px;
+}
+
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -=switch2 active=-
+.start--hidden {
+display: block;
+}*/
