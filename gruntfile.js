@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 
     browserSync: {
       bsFiles: {
-        src : 'css/*.css'
+        src : ['css/style.css', 'js/script.min.js']
       },
       options: {
         server: {
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ["css/*.scss"],
-        tasks: ["sass"]
+        tasks: ["sass", "postcss"]
       },
       js: {
         files: ["js/main.js", "js/lib/*.js"],
@@ -92,6 +92,6 @@ module.exports = function(grunt) {
   // require('load-grunt-tasks')(grunt);
 
   // 4. Указываем, какие задачи выполняются, когда мы вводим «grunt» в терминале
-  grunt.registerTask("default", ["sass", "postcss", "concat", "uglify", "imagemin", "browserSync"]);
+  grunt.registerTask("default", ["watch"]);
 
 };
