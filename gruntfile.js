@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          "css/style.css": "css/style.scss"
+          "css/style.css": "css/*.scss"
         }
       }
     },
@@ -72,8 +72,12 @@ module.exports = function(grunt) {
         files: ["css/*.scss"],
         tasks: ["sass"]
       },
+      js: {
+        files: ["js/main.js", "js/lib/*.js"],
+        tasks: ["concat", "uglify"]
+      }
     }
-    
+
   });
 
   // 3. Тут мы указываем Grunt, что хотим использовать этот плагин
