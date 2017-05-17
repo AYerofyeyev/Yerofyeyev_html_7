@@ -65,7 +65,15 @@ module.exports = function(grunt) {
             baseDir: "./"
         }
       }
+    },
+
+    watch: {
+      sass: {
+        files: ["css/*.scss"],
+        tasks: ["sass"]
+      },
     }
+    
   });
 
   // 3. Тут мы указываем Grunt, что хотим использовать этот плагин
